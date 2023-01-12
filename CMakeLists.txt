@@ -22,6 +22,7 @@ else()
     endif()
 endif()
 
+set(VERSION_SHORT "4.0.1")
 
 project(QtADS LANGUAGES CXX VERSION ${VERSION_SHORT})
 
