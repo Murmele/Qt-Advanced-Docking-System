@@ -22,7 +22,7 @@ else()
     endif()
 endif()
 
-
+set(VERSION_SHORT "1.0.0")
 project(QtADS LANGUAGES CXX VERSION ${VERSION_SHORT})
 
 option(BUILD_STATIC "Build the static library" OFF)
