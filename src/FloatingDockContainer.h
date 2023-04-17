@@ -183,7 +183,7 @@ protected: // reimplements QWidget
 #ifdef Q_OS_MACOS
 	virtual bool event(QEvent *e) override;
     virtual void moveEvent(QMoveEvent *event) override;
-#elif defined(Q_OS_LINUX)
+#elif defined(Q_OS_UNIX)
 	virtual void moveEvent(QMoveEvent *event) override;
 	virtual void resizeEvent(QResizeEvent *event) override;
 	virtual bool event(QEvent *e) override;
